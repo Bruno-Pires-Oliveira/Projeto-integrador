@@ -1,0 +1,97 @@
+.app {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "main aside";
+  padding: 20px;
+}
+
+.header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-around;
+}
+.frutasDescricao {
+  background-color: #6cb6a0;
+  height: 400px;
+  width: 400px;
+  margin-right: -200px;
+}
+.modal-dialog {
+  width: 80%;
+}
+.imagem {
+  background-image: url(../../assets/acerola.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 400px;
+  border-radius: 25px;
+}
+.incon{
+  height: 30px;
+  width: 30px;
+}
+.main {
+  margin-top: 20px;
+  grid-area: main;
+  display: flex;
+  justify-content: space-around;
+}
+.infoPlanta {
+  min-height: 600px;
+  max-height: 100%;
+  min-width: 400px;
+  max-width: 100%;
+  background-color: #8ce077;
+  display: grid;
+  grid-template-areas: "lado lado1";
+  margin-right: 200px;
+}
+.coluna1{
+  grid-area: lado;
+}
+.coluna2{
+  grid-area: lado1;
+}
+.aside {
+  grid-area: aside;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+span {
+  display: flex;
+  flex-direction: column;
+}
+.imagemFlor {
+  height: 200px;
+  width: 200px;
+  background-image: url(../../assets/acerola.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: flex-end;
+  display: flex;
+  margin-left: -350px;
+}
+.outraImagem {
+  height: 200px;
+  width: 200px;
+  background-image: url(../../assets/acerola.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  align-items: flex-end;
+  display: flex;
+  margin-left: -350px;
+}

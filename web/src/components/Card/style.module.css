@@ -1,0 +1,94 @@
+.AllCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+h3{
+    text-transform: uppercase;
+    color:white;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.H3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 106%;
+    background-color: #59AF49;
+    border-radius:12px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+p{
+    text-align:justify;
+}
+.Img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Img > img{
+    width: 130px;
+    height: 125px;
+    border-radius: 50%;
+}
+.cardContainer{
+    background-color: #8CE077;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding:10px;
+}
+
+.Button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #59AF49;
+    border: none;
+}
+.Button:hover{
+    background-color: #73C870;
+}
+@media (max-width: 1200px) {  
+    .cardContainer {  
+        width: 300px; /* Reduz a largura do cartão em telas menores */  
+        height: 350px; /* Reduz a altura do cartão */  
+    }  
+}  
+
+@media (max-width: 768px) {  
+    .AllCard {  
+        flex-direction: column; /* Muda para coluna em telas ainda menores */  
+        align-items: center;  
+        margin: 20px; /* Reduz a margem em telas menores */  
+    }  
+
+    .cardContainer {  
+        width: 90%; /* Faz os cartões ocuparem a maior parte da largura disponível */  
+        height: auto; /* Altura automática para conteúdo variável */  
+    }  
+
+    img {  
+        width: 100px; /* Reduz a largura da imagem */  
+        height: 100px; /* Reduz a altura da imagem */  
+    }  
+    
+    h3 {  
+        font-size: 1.5rem; /* Ajusta o tamanho da fonte para telas menores */  
+    }  
+
+    .Button {  
+        margin-top: 30px; /* Reduz a margem do botão */  
+    }  
+}  

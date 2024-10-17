@@ -1,0 +1,46 @@
+.fundo{
+    bottom: 0;
+    width: 100%;
+    background-color: #00A362;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+    height: auto;
+  }
+  
+  .grama{
+    background-image: url("../../assets/grama_rodape.png");
+    height: 60px;
+    bottom: 0;
+  
+  }
+  
+  @media (max-width: 1153px) {
+    .corpo {
+      width: 90%; /* Ajusta a largura do corpo */
+    }
+  
+    .topo {
+      flex-direction: column; /* Muda a direção do header */
+      height: auto; /* Permite que o header se ajuste */
+    }
+  
+    .nav {
+      display: flex;
+      gap: 5px;
+      padding: 5px;
+   }
+  
+    .search_bar {
+      width: 75%; /* Faz a barra de pesquisa ocupar toda a largura */
+    }
+  
+    .planta {
+      flex-direction: column; /* Alinha as plantas em coluna */
+    }
+  
+    .fundo {
+      flex-direction: column; /* Alinha o footer em coluna */
+    }
+  }

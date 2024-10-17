@@ -1,0 +1,38 @@
+/* Aqui Pedro e Lucas irão fazer o HEADER (Todas as páginas tem que ter o mesmo HEADER por questões de padronizacão) */
+.topo{
+    top: 0;
+    left: 0;
+    height: 120px;
+    width: 100%;
+    background-color: #00A362;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .nav{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  
+  .logo{
+    width: 80px;
+    height: 80px;
+  }
+  
+  /* .pesquisa{
+    width: 20%;
+  } */
+  
+  .search_bar{
+    display: flex;
+    width: 20%;
+    height: auto;
+  }
+  
+  .lupa{
+    height: 32px;
+    width: 32px;
+  }

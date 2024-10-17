@@ -1,0 +1,25 @@
+
+body{
+  background: #F5F5DC;
+}
+
+.corpo{
+  margin: 16px auto;
+  min-height: 80vh;
+  display: flex;
+  gap: 32px;
+}
+/* -----------------------HEADER--------------------------------------------------- */
+
+/* -----------------------BODY-------------------------------------------------------- */
+.conteudo{
+ align-items: center;
+ justify-content: center;
+}
+
+.planta{
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+/* ----------------------FOOTER-------------------------------------- */
